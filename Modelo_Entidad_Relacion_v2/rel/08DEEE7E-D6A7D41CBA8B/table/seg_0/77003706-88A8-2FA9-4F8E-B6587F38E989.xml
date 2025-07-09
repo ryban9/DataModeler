@@ -1,0 +1,212 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77003706-88A8-2FA9-4F8E-B6587F38E989" name="Tarifario">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 17:46:31 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<ordsAlias>table_58</ordsAlias>
+<typeID>1</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdTarifario" id="924FABF7-8EEA-E694-7149-CA29F01D07B7">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 17:47:56 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valor" id="477A3EBB-C20A-D47D-8E5C-33FAC3FCDC5C">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 17:52:45 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="D5D50CDD-33A2-DD2A-0066-8B3D062891E7">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 17:55:04 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UsuarioCreacion" id="371DD62F-057F-ACF7-A776-0F969BFAC8A8">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 17:55:26 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaCreacion" id="A4DCBFE8-2B78-C78C-076B-A9DBF3FE3A17">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 17:55:26 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UsuarioModificacion" id="0257B879-7016-A436-7670-D0A2494C9A60">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 17:55:26 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaModificacion" id="54B36A80-02D2-D9D0-B753-6712D269D666">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 17:55:26 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaAnulacionReact" id="B5B6DCE8-74FF-8DDC-A042-CFCA26ED4277">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 17:55:26 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdentTipoTarifario" id="94389A13-BD9C-4B11-7638-8EE813733FDB">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 18:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E64530A2-30B8-B877-FA9A-8817101E6B9E" referredColumn="D1DFDCA8-657B-5CE4-E1E7-926A67AEBCCB"/>
+</associations>
+</Column>
+<Column name="IdPrestacionPrestador" id="903EF23D-AB78-08D0-7054-D772D09BACA9">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 18:07:00 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="655AAFF3-BD01-CEA3-3A6D-186D20BD6580" referredColumn="6D73DD09-2E5B-9D39-421C-52466872C657"/>
+</associations>
+</Column>
+<Column name="FechaInicio" id="A1A1900E-B674-780C-20AA-FE06515E5716">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 18:07:16 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaFin" id="CDBD6CD2-DBE9-BDF6-EE94-2A5F278CD0B1">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 18:07:37 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TodosProductosPlanes" id="715B1DB3-60A9-C178-C2E2-08505779DB14">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 18:07:51 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TarifarioEspecial" id="EB581D84-4297-2032-0ED3-1FB99151467C">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 18:10:11 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6816BE99-4461-2009-4ED8-BC9503254E79" name="TABLE_58_PK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 17:55:26 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="924FABF7-8EEA-E694-7149-CA29F01D07B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6373204-9F60-5297-4626-6ACD6B2B7AAA" name="Tarifario_PrestacionPrestador_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 18:16:25 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="903EF23D-AB78-08D0-7054-D772D09BACA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E37ACAD-2559-179A-5CBF-ABBEB6BD95B1" name="Tarifario_TipoTarifario_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 18:55:35 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94389A13-BD9C-4B11-7638-8EE813733FDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

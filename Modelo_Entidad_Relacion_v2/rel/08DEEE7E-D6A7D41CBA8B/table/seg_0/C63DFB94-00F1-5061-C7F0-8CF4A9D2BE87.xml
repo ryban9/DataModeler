@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C63DFB94-00F1-5061-C7F0-8CF4A9D2BE87" name="Cl03Personas">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-07 10:59:33 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PersonaNumero" id="6BE808D6-CB69-61DB-397E-2B8572344C46">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-07 11:01:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la tabla Cl03Personas]]></commentInRDBMS>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nacionalidad" id="ED06EF1E-7880-AE6B-84A5-5247AB4065B7">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-07 11:09:06 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F57B3F1D-0368-99A7-FA15-8C5B0B883646" name="Cl03Personas_PK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-07 11:01:58 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BE808D6-CB69-61DB-397E-2B8572344C46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

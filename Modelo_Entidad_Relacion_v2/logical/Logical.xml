@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8E9C759F-88AE-8AB8-F421-CBAC721C4691" mainViewID="8D6620EC-8380-D3F7-81A2-852772125AB4">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-19 16:00:15 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

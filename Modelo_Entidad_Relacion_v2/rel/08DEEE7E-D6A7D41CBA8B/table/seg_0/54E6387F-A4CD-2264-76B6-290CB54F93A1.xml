@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54E6387F-A4CD-2264-76B6-290CB54F93A1" name="Co32TipoPrestadorEspecialidad">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-19 20:48:13 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<ordsAlias>table_45</ordsAlias>
+<typeID>3</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCatalogoTipoPrestador" id="D916F8F8-04F2-3614-8289-E39C23090C17">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-19 20:57:05 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA4512D1-F78D-E97B-3E04-743F73934263" referredColumn="88D6EED1-F422-AC73-AAA4-7BE4FABDDB9B"/>
+</associations>
+</Column>
+<Column name="CodigoEspecialidad" id="5B35B687-4B7E-3C17-21C4-9179DAE00099">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-19 20:58:27 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3543CF29-5AC1-E851-5E22-2894EFFE67C1" referredColumn="DDBC0B72-14C5-0AF1-C33A-B6A1FEDDFF5B"/>
+</associations>
+</Column>
+<Column name="UsuarioCreacion" id="075AA5DC-D3CA-1811-4D5F-0B9BA099D92C">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-20 16:28:29 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UsuarioModificacion" id="F77A1605-EE0C-B580-EE78-09FD9D860693">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-20 16:28:29 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaCreacion" id="7F7D9E0C-31C3-0C7E-ABD5-78D23B6C4B07">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-20 16:28:29 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoraCreacion" id="7017B2E1-28F5-DE69-5127-1F7AE1FD674A">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-20 16:28:29 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaModificacion" id="ED6D6815-35FC-046D-FD66-8CB384C5553F">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-20 16:28:29 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoraModificacion" id="75DF9389-258B-2AFC-FD57-C699A064040E">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-20 16:28:29 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="47118C79-807F-416A-1129-C56B88AA5C37">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-20 16:28:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estado ( 1 : Activo, 0 :  Inactivo).]]></commentInRDBMS>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5324130-FF8F-53A1-6A01-D0EDD01FCA50" name="Co32TipoPrestadorEspecialidad_PK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-19 20:52:35 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D916F8F8-04F2-3614-8289-E39C23090C17"/>
+<colUsage columnID="5B35B687-4B7E-3C17-21C4-9179DAE00099"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB369FB4-5C9D-CC04-43CA-1669F418F456" name="Co32TipoPrestadorEspecialidad_Co02CatalogoEspecialidades_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-20 16:24:09 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B35B687-4B7E-3C17-21C4-9179DAE00099"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C31548E-E6AD-7528-28CB-B0C48CC98F12" name="Co32TipoPrestadorEspecialidad_Tg79Catalogo_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-20 16:24:27 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D916F8F8-04F2-3614-8289-E39C23090C17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

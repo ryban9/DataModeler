@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2E2DEE7E-EF1D-C519-57F1-A994D33F1460" containerWithKeyObject="E15CD480-D01C-EB28-6B10-F9C1EF654EFE" localFKIndex="68DFFF8D-31FC-E020-9842-7EBB43165B01" name="Co03ConvenioAdicional_Co33Catalogo_FKv2">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-20 14:38:58 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<referredTableLongName>Co33Catalogo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>577FB44F-CC96-EB3C-1749-B71905FE025D</referredTableID>
+<keyObject>3F98C55D-1A22-3C79-4E40-47A2CCF3FE5C</keyObject>
+<referredKeyID>3F98C55D-1A22-3C79-4E40-47A2CCF3FE5C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>IdCatalogo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8580BD6D-73AB-6324-AFB4-7127516DDB9B" name="Tg11Provincias">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-19 21:24:13 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NumeroProvincia" id="5A44C724-A72B-CA0D-414F-97DE0DFC1823">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-19 21:27:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la tabla Provincia.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NumeroPais" id="4726B884-7F58-3FF1-B417-4B4D10DFC7A7">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-19 21:30:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Relación con la tabla País.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCA28A3F-0016-EF3D-B28B-FDFEC45517A6" referredColumn="809CE200-D8F3-B107-A151-0D2BD11561C3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87A737B3-E938-10A7-D3BF-34582FF5ECCB" name="Co30ProvinciaPk">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-19 21:54:39 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A44C724-A72B-CA0D-414F-97DE0DFC1823"/>
+<colUsage columnID="4726B884-7F58-3FF1-B417-4B4D10DFC7A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="573FF528-CADE-946C-5E60-3A80C712BFD1" name="Co30Provincia_Co31Pais_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-19 18:39:11 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4726B884-7F58-3FF1-B417-4B4D10DFC7A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

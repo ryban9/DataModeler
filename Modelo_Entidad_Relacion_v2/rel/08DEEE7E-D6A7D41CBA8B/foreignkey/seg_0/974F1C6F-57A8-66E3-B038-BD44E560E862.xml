@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="974F1C6F-57A8-66E3-B038-BD44E560E862" containerWithKeyObject="F77B4177-08CE-D7B2-7D20-4781DDDDCBD3" localFKIndex="57E39DED-5E75-00A5-0DB7-23B054678DCF" name="Co35TipPrestdrArqTipPrestdr_Co51TArquetipoPrestador_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-31 19:01:04 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<referredTableLongName>Co51TArquetipoPrestador</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7E2BD6FF-185E-15F9-D498-904996E91877</referredTableID>
+<keyObject>A372C55B-A55F-004C-53F4-75091917EF6D</keyObject>
+<referredKeyID>A372C55B-A55F-004C-53F4-75091917EF6D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdArquetipoPrestador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

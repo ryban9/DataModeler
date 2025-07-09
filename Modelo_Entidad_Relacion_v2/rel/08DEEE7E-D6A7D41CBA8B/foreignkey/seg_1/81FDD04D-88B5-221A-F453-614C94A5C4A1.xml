@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="81FDD04D-88B5-221A-F453-614C94A5C4A1" containerWithKeyObject="54B1EA3C-9EBC-160E-8C26-5992151DF016" localFKIndex="C0FC06B3-702D-DA5F-52AF-238AD44B76C2" name="Co69EspecialidadZonaCuerpo_Co68ZonaCuerpoEspecializacion_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-15 17:41:16 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<referredTableLongName>Co68ZonaCuerpoEspecializacion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ECC57346-3A50-38D6-72F8-336D4399643C</referredTableID>
+<keyObject>23EA6252-39F5-3D32-040B-087D26C5DC18</keyObject>
+<referredKeyID>23EA6252-39F5-3D32-040B-087D26C5DC18</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdZonaCuerpoEspecializacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

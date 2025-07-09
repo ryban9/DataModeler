@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="30A4245D-A6DB-FB60-3D5D-33A2F00CD966" containerWithKeyObject="3E7996C1-C402-24C6-0AF2-72C8E9A90CA8" localFKIndex="52C0EC91-6772-FDAC-B7A6-D4BEFED04B0C" name="Co74PerfilMenu_Co72Menu_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-23 16:12:45 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<referredTableLongName>Co72Menu</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CC150372-FE6B-74DF-508B-D8DF13D39B6E</referredTableID>
+<keyObject>D92ECADD-4748-2D59-5480-E8359327E002</keyObject>
+<referredKeyID>D92ECADD-4748-2D59-5480-E8359327E002</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdMenu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

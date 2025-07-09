@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E5ECAC9-FF1B-A0EE-D479-5B6BF7641269" name="NivelPlan">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 20:47:45 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<ordsAlias>table_63</ordsAlias>
+<typeID>1</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdNivelPlan" id="4C5ED159-6846-99B8-0BA8-CF158D2409C1">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 20:48:11 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreNivel" id="52ABD2B4-5A58-F191-0222-072BD1FA54DD">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 20:51:37 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UsuarioCreacion" id="5F141307-82D2-BAEA-7E86-B13123709B1C">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 20:52:01 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaCreacion" id="98F29CE2-816C-814B-B8C5-943D16C9E052">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 20:52:01 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdCodigoProductoPlan" id="E90F19DE-DF20-17FE-726C-301C5793F34F">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 20:52:29 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A41EEBD5-D511-BAB0-611E-C119EDDD1092" referredColumn="EF1619F0-B492-8196-AF61-09B5247901F7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48FD6A3B-401F-405D-B59E-1B8259D3828C" name="NivelPlan_PK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 20:52:01 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C5ED159-6846-99B8-0BA8-CF158D2409C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8E8513E-44FB-A31F-486D-BD091ABE29EF" name="NivelPlan_CodigoProductoPlan_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 20:53:09 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E90F19DE-DF20-17FE-726C-301C5793F34F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8AB5D86-46A5-1D9B-7CBB-D276CCB74A3E" name="Tg04Ciudades">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-19 21:57:29 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodigoCiudad" id="A48CFCAB-E68D-60E8-D03F-49CA8CD5C7FE">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-19 22:05:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la tabla Ciudad.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80043CFD-9626-2590-9E35-BFD81D688EB2" name="Co29CiudadPk">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-19 22:05:20 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A48CFCAB-E68D-60E8-D03F-49CA8CD5C7FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

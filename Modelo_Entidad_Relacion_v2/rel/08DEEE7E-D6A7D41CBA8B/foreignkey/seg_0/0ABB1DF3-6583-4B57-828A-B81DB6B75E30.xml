@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0ABB1DF3-6583-4B57-828A-B81DB6B75E30" containerWithKeyObject="EC54CF01-512A-AA40-7D10-10B0D80F5CE5" localFKIndex="ECB9A6D2-6502-3E5F-DB2F-9013B7F63364" name="Co50HistoricoAnulacnConven _Co49MotivoAnulacion _FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-31 19:09:54 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<referredTableLongName>Co49MotivoAnulacion </referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>73F7DD75-F687-83B1-4073-DDA165487BA7</referredTableID>
+<keyObject>0DF91C28-14F3-EEFE-A556-E7E0F13B3102</keyObject>
+<referredKeyID>0DF91C28-14F3-EEFE-A556-E7E0F13B3102</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdMotivoAnulacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="E64530A2-30B8-B877-FA9A-8817101E6B9E" containerWithKeyObject="77003706-88A8-2FA9-4F8E-B6587F38E989" localFKIndex="3E37ACAD-2559-179A-5CBF-ABBEB6BD95B1" name="Tarifario_TipoTarifario_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 18:55:35 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<referredTableLongName>TipoTarifario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7DBEAD3F-9C87-3D6B-652E-789BE7D2BCE8</referredTableID>
+<keyObject>B605EEF4-48C0-3D96-9023-7671572C1AF2</keyObject>
+<referredKeyID>B605EEF4-48C0-3D96-9023-7671572C1AF2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdentTipoTarifario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

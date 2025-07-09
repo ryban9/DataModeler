@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32E1C4CE-07EB-1995-D00A-E67BD862F9E2" name="Co55ConvenioOperacion">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-31 23:02:31 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<ordsAlias>table_55</ordsAlias>
+<typeID>3</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NumeroConvenio" id="A104BEBA-066D-C52E-4D6B-084A6CCA49B3">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-31 23:09:59 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="639C58C3-DF32-C90E-BBB7-6AC902937DA7" referredColumn="A97D72B4-8FC4-30EF-981D-A1DFFA72FBAF"/>
+</associations>
+</Column>
+<Column name="NumeroConvenioOperacion" id="91F197D4-A23F-6215-F630-784E1CE6EDA2">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-31 23:05:40 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="930E018E-AA8B-E541-328D-D7A0C162A310" referredColumn="9C67F715-F309-69D2-F261-01F646514837"/>
+</associations>
+</Column>
+<Column name="IdCatalogoTipoPrestador" id="A6644230-87B5-0D3B-13EC-90CA84C570F4">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-23 18:28:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Relacion con la entidad Tipo Prestador.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="639C58C3-DF32-C90E-BBB7-6AC902937DA7" referredColumn="5664CAC8-1AB1-B080-16CD-2C0C886258FB"/>
+</associations>
+</Column>
+<Column name="Descripcion" id="AC129333-EDC0-04EB-A729-562CD3524E39">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-23 18:22:48 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UsuarioCreacion" id="10A77610-0096-30A0-860D-6E088E00EAAF">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-31 23:13:32 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UsuarioModificacion" id="AB6520DE-C6AF-125E-1AC1-38F2D251863D">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-31 23:13:32 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaCreacion" id="BF4E5A7E-F023-D44C-215A-B451B20A1C06">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-31 23:13:32 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoraCreacion" id="28688346-1B0A-22B3-8BC8-9C4ED4075604">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-31 23:13:32 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaModificacion" id="E84CD045-DF03-D43D-69CA-264020DA5853">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-31 23:13:32 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoraModificacion" id="96A33C1F-E915-10C1-C834-79205A70DC7A">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-31 23:13:32 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="520B64AD-F21B-2E96-2ADF-43B433BB5CE6">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-31 23:13:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estado ( 1 : Activo, 0 :  Inactivo).]]></commentInRDBMS>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92C93632-EC5F-D1A7-0543-03048BF50E80" name="Co55ConvenioHospitalPk">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-31 23:13:00 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A104BEBA-066D-C52E-4D6B-084A6CCA49B3"/>
+<colUsage columnID="91F197D4-A23F-6215-F630-784E1CE6EDA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA5851D8-AD90-DECE-5B85-06DB56E2B557" name="Co55ConvenioHospital_Co03Convenio_FKv2">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-23 18:22:01 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91F197D4-A23F-6215-F630-784E1CE6EDA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1B90A0D-46ED-910C-4406-64AB1B8C8940" name="Co55ConvenioHospital_Co39ConvenioTipoPrestador_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-23 18:28:55 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A104BEBA-066D-C52E-4D6B-084A6CCA49B3"/>
+<colUsage columnID="A6644230-87B5-0D3B-13EC-90CA84C570F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

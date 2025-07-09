@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42D435B8-A1BC-DFE4-CF15-D6FC3640A6FC" name="Co02CatalogoEspecialidades">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-24 16:09:23 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodigoEspecialidad" id="DDBC0B72-14C5-0AF1-C33A-B6A1FEDDFF5B">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-24 16:10:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la tabla Catalogo Especialidad.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreEspecalidad" id="A51A8E76-C537-0161-30F1-5601CDD303D2">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-24 16:11:49 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoEspecialidad" id="D8FE127A-CB00-4820-4C0F-980920332A33">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-17 21:29:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo especialidad  ( 0 : Especialidad, 1 : Subespecialidad).]]></commentInRDBMS>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78E33549-18FA-4973-4977-EEC0FBDA5FD1" name="Co02CatalogoEspecialidades_PK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-24 16:13:35 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDBC0B72-14C5-0AF1-C33A-B6A1FEDDFF5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

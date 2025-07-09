@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="96C5699E-790B-1FA6-DB62-FE7B5946D095" containerWithKeyObject="F824E6C8-C9B4-91FA-F549-07AA86623A79" localFKIndex="2969F4F1-B7BC-AD0F-19BB-794F921F1BB2" name="Co47FormaPagoSucursal_Co13SucursalesConvenio_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-26 22:27:36 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<referredTableLongName>Co13SucursalesConvenio</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6A305C50-96AA-345E-3B8B-9BA63286BF6C</referredTableID>
+<keyObject>5D4469C9-E3D7-206A-3D22-DAB1EE27221A</keyObject>
+<referredKeyID>5D4469C9-E3D7-206A-3D22-DAB1EE27221A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>NumeroConvenio,NumeroSucursal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

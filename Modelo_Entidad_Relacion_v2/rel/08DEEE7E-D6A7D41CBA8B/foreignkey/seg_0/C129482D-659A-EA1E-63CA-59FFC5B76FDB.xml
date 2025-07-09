@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C129482D-659A-EA1E-63CA-59FFC5B76FDB" containerWithKeyObject="2BC5BBB1-AE46-C36A-8BDA-FEEF1119072A" localFKIndex="D97C4A25-A2E6-3D32-5A96-4C3819D3924C" name="Co43Titulo_Cl03Personas_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-24 15:01:15 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<referredTableLongName>Cl03Personas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C63DFB94-00F1-5061-C7F0-8CF4A9D2BE87</referredTableID>
+<keyObject>F57B3F1D-0368-99A7-FA15-8C5B0B883646</keyObject>
+<referredKeyID>F57B3F1D-0368-99A7-FA15-8C5B0B883646</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PersonaNumero</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

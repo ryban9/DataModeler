@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="D1188F26-A55C-9CBE-A0F5-F4572822BE6D" containerWithKeyObject="516EAF8C-874D-3D4C-FCA4-DE3DA6FB0117" localFKIndex="B2342F9B-2C16-5848-1CDB-3A980775ECA9" name="PaqueteIncluye_PaqueteAutorizacion_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-07 19:04:57 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<referredTableLongName>PaqueteAutorizacion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>95AB1D0B-F02A-BC04-D078-C37C83D34AAF</referredTableID>
+<keyObject>B92D9978-BAF5-A323-0E0F-524C05F9E0E3</keyObject>
+<referredKeyID>B92D9978-BAF5-A323-0E0F-524C05F9E0E3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="251E774B-7262-15E2-7641-BCBABE329007" containerWithKeyObject="597E519C-F2DB-D460-0A28-92CD6E3EDBA0" localFKIndex="E318ED79-8323-F7DA-D581-3F3A928E439D" name="Co73Funcionalidad_Co48Sitema_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-23 16:10:48 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<referredTableLongName>Co48Sitema</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>55ABCDAE-EC74-9657-280B-A08936B5AD42</referredTableID>
+<keyObject>BB89F472-E754-4085-9706-4B3B61F2EF1A</keyObject>
+<referredKeyID>BB89F472-E754-4085-9706-4B3B61F2EF1A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdSistema</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="516EAF8C-874D-3D4C-FCA4-DE3DA6FB0117" name="PaqueteIncluye">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-07 18:56:01 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<ordsAlias>table_66</ordsAlias>
+<typeID>1</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="AF5B67EB-E412-1F44-BB07-E6BEFEE3CE22">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-07 19:00:02 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="E4740660-E8F1-802B-6F34-1E9871F70715">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-07 19:02:45 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatoExtra" id="03EAB3ED-087E-4B33-5AD2-1D07A236C78E">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-07 19:03:18 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Detalle" id="57561BFE-BA6F-C5A4-0954-EDE3FBD96AB0">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-07 19:03:42 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EsIncluye" id="C590660F-5883-2273-B562-28DC7D558584">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-07 19:04:25 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdPaquete" id="8152944A-A27E-7F23-A7B4-266AEF8E5414">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-07 19:04:45 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1188F26-A55C-9CBE-A0F5-F4572822BE6D" referredColumn="BD9363F7-F4E9-DCE7-989C-EAF0E818CE80"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0B15E5E-F1EF-BBEA-4FE0-91E91E4B50B9" name="PaqueteIncluye_PK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-07 19:00:05 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF5B67EB-E412-1F44-BB07-E6BEFEE3CE22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2342F9B-2C16-5848-1CDB-3A980775ECA9" name="PaqueteIncluye_PaqueteAutorizacion_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-07 19:04:57 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8152944A-A27E-7F23-A7B4-266AEF8E5414"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

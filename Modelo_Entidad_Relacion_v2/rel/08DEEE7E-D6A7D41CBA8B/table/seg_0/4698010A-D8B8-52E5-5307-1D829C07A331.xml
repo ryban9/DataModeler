@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4698010A-D8B8-52E5-5307-1D829C07A331" name="Tg10Paises">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-19 20:28:17 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NumeroPais" id="809CE200-D8F3-B107-A151-0D2BD11561C3">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-19 20:49:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la tabla País.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E2D40D4-961C-6CBE-4655-23E73F7185DF" name="Co31PaisPk">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-19 21:00:33 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="809CE200-D8F3-B107-A151-0D2BD11561C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

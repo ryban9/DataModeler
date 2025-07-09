@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8AF2A968-5EEC-A183-6EB0-F69EAB8D4576" containerWithKeyObject="6A4FD0CB-5DAC-958C-134A-E50CB125E2D1" localFKIndex="7529D1B8-3BBA-3C15-9113-049C4D7FFE61" name="Co41ConvenTipPrestdrConfigurcn_Co39ConvenioTipoPrestador_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-21 19:31:19 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<referredTableLongName>Co39ConvenioTipoPrestador</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D0DCCA75-F31C-DAD3-E499-D204F0108FBB</referredTableID>
+<keyObject>D0A34A45-1D1D-4C21-7B69-B92C3776D6AF</keyObject>
+<referredKeyID>D0A34A45-1D1D-4C21-7B69-B92C3776D6AF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdConvenio,IdCatalogoTipoPrestador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

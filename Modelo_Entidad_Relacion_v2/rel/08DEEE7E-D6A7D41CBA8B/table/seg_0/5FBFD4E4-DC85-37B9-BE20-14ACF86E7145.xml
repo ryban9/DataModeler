@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5FBFD4E4-DC85-37B9-BE20-14ACF86E7145" name="Co17ContactoConvenio">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-19 16:40:18 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdTipoContacto" id="AB746891-FD46-49B3-FB58-B8B251A6EF08">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-19 17:15:21 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NumeroConvenio" id="28811AB6-C4FB-C34C-0B57-0B2C00AFE8CB">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-19 17:16:16 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6E84C9A-0D1F-086B-8883-7495F2198AE3" referredColumn="728572CC-88D3-46C3-D7A7-3BA9AD854E89"/>
+</associations>
+</Column>
+<Column name="NumeroSucursal" id="8DC5866F-324E-7052-2A98-A3DF42F9F7C6">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-26 17:08:27 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6E84C9A-0D1F-086B-8883-7495F2198AE3" referredColumn="944B6F30-F486-C3EE-4B1E-FBEA695488EE"/>
+</associations>
+</Column>
+<Column name="NombreContacto" id="85DA73C7-EBC9-D453-69BB-9D3EBDB9DE2B">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-19 17:16:33 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EsActivo" id="E5C4E66F-717B-A7E1-ED42-A862214EF54F">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-19 17:16:53 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dirección" id="0437C70C-809C-6761-0FA3-C1EF3536DB35">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-26 17:16:59 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D86FAD78-2D52-5C03-F134-8758E2DB6219" name="Co17ContactoConvenio_PK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-19 17:22:13 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB746891-FD46-49B3-FB58-B8B251A6EF08"/>
+<colUsage columnID="28811AB6-C4FB-C34C-0B57-0B2C00AFE8CB"/>
+<colUsage columnID="85DA73C7-EBC9-D453-69BB-9D3EBDB9DE2B"/>
+<colUsage columnID="E5C4E66F-717B-A7E1-ED42-A862214EF54F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C9B80FD-F061-86E9-624E-DF169BA802AA" name="Co17ContactoConvenio_Co13SucursalesConvenio_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-26 17:08:42 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28811AB6-C4FB-C34C-0B57-0B2C00AFE8CB"/>
+<colUsage columnID="8DC5866F-324E-7052-2A98-A3DF42F9F7C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

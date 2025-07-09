@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FCA28A3F-0016-EF3D-B28B-FDFEC45517A6" containerWithKeyObject="8580BD6D-73AB-6324-AFB4-7127516DDB9B" localFKIndex="573FF528-CADE-946C-5E60-3A80C712BFD1" name="Co30Provincia_Co31Pais_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-03-19 18:39:11 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<referredTableLongName>Co31Pais</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4698010A-D8B8-52E5-5307-1D829C07A331</referredTableID>
+<keyObject>2E2D40D4-961C-6CBE-4655-23E73F7185DF</keyObject>
+<referredKeyID>2E2D40D4-961C-6CBE-4655-23E73F7185DF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdPais</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo_Entidad_Relacion_v2" id="131E6CB1-59DA-071E-BEE7-7A1D4498D971" version="3.5">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-02-19 16:00:15 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>131E6CB1-59DA-071E-BEE7-7A1D4498D971</designId>
+</OSDM_Design>

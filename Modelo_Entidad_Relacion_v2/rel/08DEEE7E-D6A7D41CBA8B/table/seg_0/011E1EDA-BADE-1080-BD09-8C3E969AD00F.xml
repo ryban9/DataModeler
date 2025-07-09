@@ -1,0 +1,263 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="011E1EDA-BADE-1080-BD09-8C3E969AD00F" name="Co62HistorialCargaDocumento">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:10:22 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<ordsAlias>table_54</ordsAlias>
+<typeID>3</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdHistorialCargaDocumento" id="3095C435-228A-87A3-1D70-8DEAFB787C40">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:12:29 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdCargaDocumento" id="B0402013-4ABA-E17F-85AC-B53C49B6FDB1">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:14:18 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA57DA70-4C59-D12C-EF59-C29CBF5A2EA9" referredColumn="FBF808D9-0455-6B17-7056-D5735228959F"/>
+</associations>
+</Column>
+<Column name="NumeroConvenio" id="89A7F894-40A0-3D25-F92D-4D66F6204BB7">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:14:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Relación con la tabla Convenio Adicional.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdCatalogoTipoPrestador" id="4F785AC0-773C-71A2-8395-3550E6581AFC">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:14:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Relacion con la entidad Tipo Prestador.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NumeroSucursal" id="F335410B-D7C8-7121-D821-E2A752E788D3">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:14:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Relacion con la tabla Co03SucursalesConvenio]]></commentInRDBMS>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdCatalogoTipoSucursal" id="AAC7D17C-443E-BA27-5455-6A7C67BE1402">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:14:18 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdNegociacionEspecial" id="B5AD4885-0116-B37A-76BA-26242815E975">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:14:18 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreOriginal" id="AA88FCB2-29BD-4F88-6456-A3AB248175E9">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:14:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del Documento]]></commentInRDBMS>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreNuevo" id="79BDF718-271A-1DE9-EE4A-4BA1118E1B47">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:14:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del Documento]]></commentInRDBMS>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Url" id="B87D1084-4E28-AFEB-EA88-958808307B04">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:14:18 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoMime" id="C5C14CFC-7EC5-CFDB-E94B-B98C230F8F75">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:14:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo Mime de una Documento.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Observaciones" id="E3F6C0C3-EC6F-6FFB-38C6-0E5567D2C51A">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:14:18 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UsuarioCreacion" id="7F5C2ABC-30E0-45C2-E844-EE6D4D0C2D63">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:14:18 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UsuarioModificacion" id="49E0EF2B-9D84-39C6-1C9B-BBFC5FD589A9">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:14:18 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaCreacion" id="FF19F824-59F3-686B-804E-6B3106FC4520">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:14:18 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoraCreacion" id="78FD095C-697A-5587-18B8-0E36353FF3B0">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:14:18 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaModificacion" id="79A15F78-8022-1B44-1CF8-11A88E9CEA66">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:14:18 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoraModificacion" id="62D3B30E-4870-6FD6-A349-2DEB1EA5792E">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:14:18 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="593B4805-9BCF-B627-CDF3-D9737F778331">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:14:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estado ( 1 : Activo, 0 :  Inactivo).]]></commentInRDBMS>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75175F75-9CBE-BED4-F063-6D9505300286" name="Co62HistorialCargaDocumento_PK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:15:24 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3095C435-228A-87A3-1D70-8DEAFB787C40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96E0C125-2FBD-4BAB-22CE-8529D281E952" name="Co62HistorialCargaDocumento_Co60CargaDocumento_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-02 21:15:45 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0402013-4ABA-E17F-85AC-B53C49B6FDB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

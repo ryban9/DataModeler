@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="8F3ED666-16D9-D41F-9AFC-EB4E8F1C70C9" containerWithKeyObject="7DBEAD3F-9C87-3D6B-652E-789BE7D2BCE8" localFKIndex="1A40C75F-591F-B7C4-2D70-392E5A7BC082" name="TipoTarifario_TipoCobertura_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-03 20:09:44 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<referredTableLongName>TipoCobertura</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BEBA1F5B-81F5-0F3C-9A34-9849ABE9FC54</referredTableID>
+<keyObject>EBF0C477-E2FD-BA56-1DF3-8A9268FCE576</keyObject>
+<referredKeyID>EBF0C477-E2FD-BA56-1DF3-8A9268FCE576</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdTipoCobertura</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

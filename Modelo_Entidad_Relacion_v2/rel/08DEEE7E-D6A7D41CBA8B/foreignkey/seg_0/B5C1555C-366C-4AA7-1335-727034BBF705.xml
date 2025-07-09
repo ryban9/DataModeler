@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B5C1555C-366C-4AA7-1335-727034BBF705" containerWithKeyObject="6B75A363-A07E-C133-6D61-2148AD2E7CDC" localFKIndex="053556D4-825A-331E-2F97-D4CD064DB112" name="Co58ConvenNegociacnEspecl_Co57NegociacionEspecial_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-01 18:47:03 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<referredTableLongName>Co57NegociacionEspecial</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>884C8D4B-6904-DCCB-15F9-9CF0474CF93D</referredTableID>
+<keyObject>A0B8BC08-043B-3B2A-FC29-93A95D0B7193</keyObject>
+<referredKeyID>A0B8BC08-043B-3B2A-FC29-93A95D0B7193</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdNegociacionEspecial</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

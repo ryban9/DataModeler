@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="386DB4AA-801A-79F3-18A0-02F24EA13A70" containerWithKeyObject="A0F8A404-0DA1-57F0-9988-6B45FE6B9A29" localFKIndex="D827824F-03F1-0822-E412-56F0FDE47CCA" name="Co61TipoPrestadorDocumento_Co59TipoDocumento_FK">
+<createdBy>Vimeworks</createdBy>
+<createdTime>2025-04-01 18:25:39 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_v2</ownerDesignName>
+<referredTableLongName>Co59TipoDocumento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>64D81B53-85DB-194F-AFA1-CB3C2ED03D13</referredTableID>
+<keyObject>D93EEF39-202D-A5AC-E1DD-3E9EDCC10D19</keyObject>
+<referredKeyID>D93EEF39-202D-A5AC-E1DD-3E9EDCC10D19</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdTipoDocumento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
