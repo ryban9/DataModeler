@@ -15,6 +15,7 @@ BEGIN
         AnoAtencionHasta NUMERIC(20), 
         EdadDesde NUMERIC(28), 
         EdadHasta NUMERIC(28), 
+        GeneroAtencion VARCHAR(10), 
         UsuarioCreacion VARCHAR(40), 
         UsuarioModificacion VARCHAR(40), 
         FechaCreacion DATE, 
