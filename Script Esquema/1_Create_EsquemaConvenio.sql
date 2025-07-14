@@ -725,6 +725,7 @@ BEGIN
         IdServicioAdicional INTEGER NOT NULL,
         NumeroConvenio INTEGER,
         NumeroSucursal INTEGER,
+        NumeroConvenioAdicional INTEGER,
         Valor VARCHAR(250),
         UsuarioCreacion VARCHAR(40),
         UsuarioModificacion VARCHAR(40),
