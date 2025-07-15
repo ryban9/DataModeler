@@ -89,3 +89,12 @@ END
 
 
 
+
+
+INSERT INTO Salud.dbo.Co44ServicioAdicional (IdServicioAdicional,codigo, Nombre, ValorUno,FechaCreacion, Estado)
+values 
+(NEXT VALUE FOR SeqCo44ServicioAdicional, 'TIPOATEN','TIPATECON','Consulta', GETDATE(),1),
+(NEXT VALUE FOR SeqCo44ServicioAdicional, 'TIPOATEN','TIPATEIN','Interconsulta', GETDATE(),1),
+(NEXT VALUE FOR SeqCo44ServicioAdicional, 'TIPOATEN','TIPATEQUI','Quirúrgica', GETDATE(),1),
+(NEXT VALUE FOR SeqCo44ServicioAdicional, 'TIPOATEN','TIPATEPC','Procedimientos en consultorio', GETDATE(),1),
+(NEXT VALUE FOR SeqCo44ServicioAdicional, 'TIPOATEN','TIPATETC','Tratamiento clínico', GETDATE(),1)
