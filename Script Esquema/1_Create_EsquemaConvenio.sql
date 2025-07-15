@@ -2332,20 +2332,18 @@ IF NOT EXISTS (
 BEGIN
     CREATE TABLE Co78EmpresaConvenioStaffMedico
     (
+        IdEmpresaConvenioMedico INTEGER NOT NULL IDENTITY PRIMARY KEY,
         NumeroConvenioEmpresa INTEGER NOT NULL,
         NumeroConvenioMedico INTEGER NOT NULL,
+        NumeroSucursal INTEGER,
         UsuarioCreacion VARCHAR(40), 
         UsuarioModificacion VARCHAR(40), 
         FechaCreacion DATE, 
         HoraCreacion VARCHAR(16), 
         FechaModificacion DATE, 
         HoraModificacion VARCHAR(16), 
-        Estado INTEGER,
-        CONSTRAINT Co78EmpresaStaffMedicoPk PRIMARY KEY CLUSTERED (NumeroConvenioEmpresa, NumeroConvenioMedico)
-        WITH (
-            ALLOW_PAGE_LOCKS = ON, 
-            ALLOW_ROW_LOCKS = ON
-        )
+        Estado INTEGER
+        
     );
       PRINT 'Tabla Co78EmpresaConvenioStaffMedico creada.';
 END
